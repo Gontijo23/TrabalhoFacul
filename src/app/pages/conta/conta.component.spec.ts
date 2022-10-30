@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PerfilComponent } from './perfil.component';
+import { ContaComponent } from './conta.component';
 
-describe('PerfilComponent', () => {
-  let component: PerfilComponent;
-  let fixture: ComponentFixture<PerfilComponent>;
+describe('ContaComponent', () => {
+  let component: ContaComponent;
+  let fixture: ComponentFixture<ContaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PerfilComponent ]
+      declarations: [ ContaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PerfilComponent);
+    fixture = TestBed.createComponent(ContaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

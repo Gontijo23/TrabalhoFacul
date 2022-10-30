@@ -9,9 +9,12 @@ import { FooterComponent } from './sharepage/footer/footer.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
-import { PerfilComponent } from './pages/perfil/perfil.component';
 import { SeusIngressosComponent } from './pages/seus-ingressos/seus-ingressos.component';
 import { FavoritosComponent } from './pages/favoritos/favoritos.component';
+import { HttpClientModule  } from '@angular/common/http';
+import { ContaComponent } from './pages/conta/conta.component';
+
+
 
 @NgModule({
   declarations: [
@@ -21,14 +24,16 @@ import { FavoritosComponent } from './pages/favoritos/favoritos.component';
     FooterComponent,
     MenuComponent,
     HomeComponent,
-    SobreComponent,
-    PerfilComponent,
-    SeusIngressosComponent,
-    FavoritosComponent
+	  SobreComponent,
+	  SeusIngressosComponent,
+    FavoritosComponent,
+    ContaComponent,
+     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
