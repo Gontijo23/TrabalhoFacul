@@ -13,6 +13,7 @@ import { SeusIngressosComponent } from './pages/seus-ingressos/seus-ingressos.co
 import { FavoritosComponent } from './pages/favoritos/favoritos.component';
 import { HttpClientModule  } from '@angular/common/http';
 import { ContaComponent } from './pages/conta/conta.component';
+import { EventosComponent } from './pages/eventos/eventos.component';
 
 
 
@@ -28,6 +29,7 @@ import { ContaComponent } from './pages/conta/conta.component';
 	  SeusIngressosComponent,
     FavoritosComponent,
     ContaComponent,
+    EventosComponent,
      
   ],
   imports: [
